@@ -8,6 +8,8 @@ import io.dropwizard.Configuration;
  * 
  * Consente di utilizzare un file di configurazione per settare il 
  * saldo punti iniziale da associare ad un nuovo utente.
+ * 
+ * (Il file di configurazione è "config-puntispesa.yml")
  */
 public class PuntiSpesaConfig extends Configuration {
     
