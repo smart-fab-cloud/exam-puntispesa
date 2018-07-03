@@ -15,6 +15,10 @@ public class SaldoPunti {
     // Punti accumulati
     private int punti;
     
+    public SaldoPunti() {
+        // Ci pensa Jackson
+    }
+    
     public SaldoPunti(int matricola, int punti) {
         this.matricola = matricola;
         this.punti = punti;
